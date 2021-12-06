@@ -1,0 +1,111 @@
+{
+  "configVersion": 1,
+  "timestamp": 1638756747043,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/612.6f8c212918fd02e0.js",
+        "/935.73a35ba5683ae7a0.js",
+        "/index.html",
+        "/main.689e1fb4b8368c1e.js",
+        "/manifest.webmanifest",
+        "/polyfills.31fe658bf11bd5f8.js",
+        "/runtime.0040475b75f35334.js",
+        "/scripts.fdcbef0cb1f8456e.js",
+        "/styles.c0d40811d56ab56d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/404.gif",
+        "/assets/images/angular.svg",
+        "/assets/images/default-hero.png",
+        "/assets/images/favicon.ico",
+        "/assets/images/github-circle-white-transparent.svg",
+        "/assets/images/og.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "spanish",
+      "patterns": [
+        "\\/es"
+      ],
+      "strategy": "freshness",
+      "maxSize": 0,
+      "maxAge": 0,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/612.6f8c212918fd02e0.js": "45474643475265febc1b733de9169fddbf2f4b98",
+    "/935.73a35ba5683ae7a0.js": "828b592fddd4f36a435ef3e992f32deb577cb0b6",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/404.gif": "5884765f20002934d84bbe9fb8cca3a46dc1326f",
+    "/assets/images/angular.svg": "d1a341d42e3c06f5b4733d482246b195765532de",
+    "/assets/images/default-hero.png": "4ba5c23dab24b6cb77cd8794a4b64b6e54998c31",
+    "/assets/images/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/images/github-circle-white-transparent.svg": "76dc21b3fa461d23aa2e8f227025cdc0dfe44bc5",
+    "/assets/images/og.jpg": "c7e89b0f813374fa9787faf4a862d7e15f7f56f6",
+    "/index.html": "8bb7d5269136680e016f383fb6ced6a5664a3058",
+    "/main.689e1fb4b8368c1e.js": "f01bdcf80698eae4bbdf9ecbd563de6993f6a859",
+    "/manifest.webmanifest": "7e1b05d97b50d8422c450e4a6edc56127195b4bb",
+    "/polyfills.31fe658bf11bd5f8.js": "d05a73642e0aaa9404ee2e268b2feac3d0bdaa4f",
+    "/runtime.0040475b75f35334.js": "11854359eadca807c03a9cc6c143f93a17413389",
+    "/scripts.fdcbef0cb1f8456e.js": "02abb58eedc90d0e57bc7e9fb87e28962bb4e7fb",
+    "/styles.c0d40811d56ab56d.css": "915a9de56a74e70916ae0117300b448cf2fe3d66"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
