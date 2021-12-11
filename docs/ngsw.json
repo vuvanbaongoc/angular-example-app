@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1638757089024,
+  "timestamp": 1639231945160,
   "index": "https://ismaestro.github.io/angular-example-app/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://ismaestro.github.io/angular-example-app/612.6f8c212918fd02e0.js",
-        "https://ismaestro.github.io/angular-example-app/935.73a35ba5683ae7a0.js",
+        "https://ismaestro.github.io/angular-example-app/450.2dabfacab4ef59ee.js",
+        "https://ismaestro.github.io/angular-example-app/612.34980c8bf5b1aca3.js",
+        "https://ismaestro.github.io/angular-example-app/es/index.html",
         "https://ismaestro.github.io/angular-example-app/index.html",
-        "https://ismaestro.github.io/angular-example-app/main.689e1fb4b8368c1e.js",
+        "https://ismaestro.github.io/angular-example-app/main.d864523bd07c3f08.js",
         "https://ismaestro.github.io/angular-example-app/manifest.webmanifest",
-        "https://ismaestro.github.io/angular-example-app/polyfills.31fe658bf11bd5f8.js",
-        "https://ismaestro.github.io/angular-example-app/runtime.0040475b75f35334.js",
-        "https://ismaestro.github.io/angular-example-app/scripts.fdcbef0cb1f8456e.js",
-        "https://ismaestro.github.io/angular-example-app/styles.c0d40811d56ab56d.css"
+        "https://ismaestro.github.io/angular-example-app/polyfills.b4eaca99b7b5cb44.js",
+        "https://ismaestro.github.io/angular-example-app/runtime.992f56ff234ead97.js",
+        "https://ismaestro.github.io/angular-example-app/scripts.bb5e237bfa2d9446.js",
+        "https://ismaestro.github.io/angular-example-app/styles.da07632dd4be793d.css"
       ],
       "patterns": []
     },
@@ -65,8 +66,8 @@
     }
   ],
   "hashTable": {
-    "https://ismaestro.github.io/angular-example-app/612.6f8c212918fd02e0.js": "45474643475265febc1b733de9169fddbf2f4b98",
-    "https://ismaestro.github.io/angular-example-app/935.73a35ba5683ae7a0.js": "828b592fddd4f36a435ef3e992f32deb577cb0b6",
+    "https://ismaestro.github.io/angular-example-app/450.2dabfacab4ef59ee.js": "280c0e96b1ee2ba8c7c61b5166df782e1ef5f662",
+    "https://ismaestro.github.io/angular-example-app/612.34980c8bf5b1aca3.js": "26ee1c8385ac195109f4d71fef54a0d0fad5be93",
     "https://ismaestro.github.io/angular-example-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://ismaestro.github.io/angular-example-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://ismaestro.github.io/angular-example-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -81,13 +82,14 @@
     "https://ismaestro.github.io/angular-example-app/assets/images/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "https://ismaestro.github.io/angular-example-app/assets/images/github-circle-white-transparent.svg": "76dc21b3fa461d23aa2e8f227025cdc0dfe44bc5",
     "https://ismaestro.github.io/angular-example-app/assets/images/og.jpg": "c7e89b0f813374fa9787faf4a862d7e15f7f56f6",
-    "https://ismaestro.github.io/angular-example-app/index.html": "7e813d1ee17421e66f248d23cc4bd6700c618d54",
-    "https://ismaestro.github.io/angular-example-app/main.689e1fb4b8368c1e.js": "f01bdcf80698eae4bbdf9ecbd563de6993f6a859",
+    "https://ismaestro.github.io/angular-example-app/es/index.html": "580f4c9b8a339ff70510d3ef1d117246c4ed0662",
+    "https://ismaestro.github.io/angular-example-app/index.html": "ac499ecce3c9266a4998941e1cb4c19e6c913969",
+    "https://ismaestro.github.io/angular-example-app/main.d864523bd07c3f08.js": "e182c39f96b475fb12f4085ea44c2149a8170488",
     "https://ismaestro.github.io/angular-example-app/manifest.webmanifest": "7e1b05d97b50d8422c450e4a6edc56127195b4bb",
-    "https://ismaestro.github.io/angular-example-app/polyfills.31fe658bf11bd5f8.js": "d05a73642e0aaa9404ee2e268b2feac3d0bdaa4f",
-    "https://ismaestro.github.io/angular-example-app/runtime.0040475b75f35334.js": "11854359eadca807c03a9cc6c143f93a17413389",
-    "https://ismaestro.github.io/angular-example-app/scripts.fdcbef0cb1f8456e.js": "02abb58eedc90d0e57bc7e9fb87e28962bb4e7fb",
-    "https://ismaestro.github.io/angular-example-app/styles.c0d40811d56ab56d.css": "915a9de56a74e70916ae0117300b448cf2fe3d66"
+    "https://ismaestro.github.io/angular-example-app/polyfills.b4eaca99b7b5cb44.js": "01b74e114fba4275b56325afe4e5aa32da939388",
+    "https://ismaestro.github.io/angular-example-app/runtime.992f56ff234ead97.js": "6602e2c11d49a122aa17c9761336ff503e75b5b1",
+    "https://ismaestro.github.io/angular-example-app/scripts.bb5e237bfa2d9446.js": "12453b97b9f9c2316189ac55ed59cac68d12872a",
+    "https://ismaestro.github.io/angular-example-app/styles.da07632dd4be793d.css": "1390cb011f7732c66abbf1356b20f8d4111358f8"
   },
   "navigationUrls": [
     {
