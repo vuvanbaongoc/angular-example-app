@@ -1,17 +1,16 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed, waitForAsync } from '@angular/core/testing';
 import { UtilsHelperService } from './utils-helper.service';
-import { configureTestSuite } from 'ng-bullet';
 
 describe('UtilsHelperService', () => {
   let utilsHelperService: UtilsHelperService;
 
-  configureTestSuite(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       providers: [UtilsHelperService],
     });
 
     utilsHelperService = TestBed.inject(UtilsHelperService);
-  });
+  }));
 
   it('should check if is palindrome', () => {
     expect(UtilsHelperService.isPalindrome('')).toBe(true);

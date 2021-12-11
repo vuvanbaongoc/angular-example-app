@@ -1,9 +1,8 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { transition, trigger, useAnimation } from '@angular/animations';
 import { fadeIn } from 'ng-animate';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../auth.service';
-import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
 import { UtilsService } from '../../../../shared/services/utils.service';
 
 @Component({
@@ -17,8 +16,8 @@ import { UtilsService } from '../../../../shared/services/utils.service';
   ]
 })
 
-export class SignUpPageComponent implements OnInit {
-  @ViewChild('signupForm') signupForm;
+export class SignUpPageComponent {
+  @ViewChild('signupForm') signupForm: any;
 
   signUpForm: FormGroup;
   firstName = new FormControl('', [Validators.required, Validators.maxLength(100)]);
@@ -39,15 +38,14 @@ export class SignUpPageComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-  }
-
-  getErrorMessage(field) {
-    if (this[field]?.hasError('required')) {
+  getErrorMessage(field: any): string | void {
+    // @ts-ignore
+    const classField: any = this[field];
+    if (classField?.hasError('required')) {
       return 'You must enter a value';
-    } else if (this[field]?.hasError('email')) {
+    } else if (classField?.hasError('email')) {
       return 'Not a valid email';
-    } else if (this[field]?.hasError('pattern')) {
+    } else if (classField?.hasError('pattern')) {
       return 'Not a valid password';
     }
   }

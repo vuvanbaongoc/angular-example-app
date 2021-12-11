@@ -10,9 +10,14 @@ import { HeroService } from '../../../hero/shared/hero.service';
 })
 
 export class HomePageComponent implements OnInit {
-  heroes$: Observable<Hero[]>;
+  heroes$: Observable<Hero[]> | undefined;
 
   constructor(private heroService: HeroService) {
+    // @ts-ignore
+    if (window.Cypress) {
+      // @ts-ignore
+      window.HomePageComponent = this
+    }
   }
 
   ngOnInit() {
